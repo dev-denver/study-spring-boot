@@ -1,4 +1,4 @@
-package com.doongji.member.entity;
+package com.studyspringboot.member.entity;
 
 import static com.querydsl.core.types.PathMetadataFactory.*;
 
@@ -31,7 +31,7 @@ public class QMemberEntity extends EntityPathBase<MemberEntity> {
 
     public final StringPath memberName = createString("memberName");
 
-    public final EnumPath<com.doongji.member.MemberType> memberType = createEnum("memberType", com.doongji.member.MemberType.class);
+    public final EnumPath<com.studyspringboot.member.MemberType> memberType = createEnum("memberType", com.studyspringboot.member.MemberType.class);
 
     public final StringPath password = createString("password");
 
